@@ -2,7 +2,7 @@
 
 This repo contains a pipeline for extracting image features using a network trained on the imagenet database.
 
-to run the pipeline:
+to execute the pipeline:
 
 ```brain4k local-path-to-this-repo```
 
