@@ -4,7 +4,10 @@ This repo contains a [brain4k](https://github.com/shuggiefisher/brain4k) pipelin
 
 to execute the pipeline:
 
-```brain4k local-path-to-this-repo```
+```
+git clone https://github.com/shuggiefisher/imagenet-feature-extraction.git local-path-to-this-repo
+brain4k local-path-to-this-repo
+```
 
 ### Requirements
 - [brain4k](https://github.com/shuggiefisher/brain4k)
