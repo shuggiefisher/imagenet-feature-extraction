@@ -1,0 +1,20 @@
+digraph G {
+    compound=true;
+    ranksep=1;
+    ratio=compress;
+    size=728;
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        fontname="Helvetica";
+        fontsize=18;
+        "1_Extracted image features" [style="filled,rounded",color=green,label="Extracted image features",fontname="Verdana",fontsize=12,shape=rectangle];
+        "1_Images" [style="filled,rounded",color=orange,label="Images",fontname="Verdana",fontsize=12,shape=rectangle];
+        label = "Convolutional neural network pretrained on imagenet database";
+    }
+    
+    start -> "1_Images" [lhead=cluster_1];
+    "1_Extracted image features" -> end [ltail=cluster_1];
+    start [shape=Mdiamond];
+    end [shape=Msquare];
+}

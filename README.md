@@ -1,3 +1,5 @@
+
+
 ## Imagenet feature extraction
 
 This repo contains a [brain4k](https://github.com/shuggiefisher/brain4k) pipeline for extracting image features using a network trained on the imagenet database.
@@ -15,3 +17,10 @@ brain4k local-path-to-this-repo
 
 Installing caffe is quite involved, so you may find it easier to use a
 [caffe docker image](https://registry.hub.docker.com/u/tleyden5iwx/caffe/)
+
+
+
+
+# The Pipeline
+
+![Pipeline diagram](http://goo.gl/jdE5wV)
