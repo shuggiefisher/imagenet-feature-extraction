@@ -1,10 +1,8 @@
 
 
+# EXTRACT Pipeline
 
-
-# The Pipeline
-
-![Pipeline diagram](http://goo.gl/jdE5wV)
+![extract pipeline diagram](metrics/figures/extract_pipeline.png)
 
 
 ## Imagenet feature extraction
